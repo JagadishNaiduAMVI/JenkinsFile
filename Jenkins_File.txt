@@ -1,0 +1,35 @@
+pipeline
+{
+agent any
+stages
+{
+stage('Build')
+{
+steps
+{
+echo "Testing the Build"
+}
+}
+stage('Deploy')
+{
+steps
+{
+echo "Testing the Deploy"
+}
+}
+stage('Test')
+{
+steps
+{
+echo "Testing the Test"
+}
+}
+stage('Release')
+{
+steps
+{
+echo "Testing the release"
+}
+}
+}
+}
